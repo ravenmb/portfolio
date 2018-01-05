@@ -1,1 +1,9 @@
-.cell{background: gold; border: 1px solid green}
+/* {outline: 1px solid gray;} */
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Montserrat');
+
+body {font-family: 'Bellefair', serif;}
+
+h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif;}
+h2 {font-size: 1.35rem}
+p {line-height: 1.25em}
+/* comments */
