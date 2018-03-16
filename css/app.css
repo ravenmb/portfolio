@@ -7,17 +7,46 @@
 body {font-family: 'Bellefair', serif;}
 
 h1 {font-family: 'Allura', cursive;}
-h1 {font-size: 2.5rem;}
+h1 {
+    font-size: 2.5rem;
+    margin: 0px;
+  }
 
 h2, h3, h4, h5, h6 {font-family: 'Montserrat', sans-serif;}
 h2 {font-size: 1.35rem;}
 p {line-height: 1.25em;}
-nav {font-size: 1.5em;}
+nav {font-size: 1.75em;}
 
-.gray {background-color: lightgray;}
+.gray {
+  background-color: #ded9d3;
+}
 
-article, header, footer {background-color: lightgray;}
+.menu a {
+  padding-left: 10px;
+}
 
-li {margin-left: 8px; margin-right: 4px;}
+a:hover {
+  background-color: #b2a799;
+}
 
-/* comments */
+.pad {
+  padding-top: 10px;
+}
+
+article, header, footer {
+  background-color: #ded9d3;
+}
+
+li {
+  /*padding-left: 10px; */
+  margin-right: 4px;}
+
+aside {
+  background-color: white;
+}
+
+/* testing and editing styles */
+
+/* ul, h1, h2, h3, aside, article {
+  border: 1px solid green;
+} */
