@@ -29,6 +29,14 @@ a:hover {
   background-color: #b2a799;
 }
 
+.art {
+  padding: 10px;
+}
+
+.art:hover {
+  background-color: #b2a799;
+}
+
 .pad {
   padding-top: 10px;
 }
@@ -43,6 +51,28 @@ li {
 
 aside {
   background-color: white;
+}
+
+.padpic {
+  padding-left: 25px;
+}
+
+.outline {border: 1px solid black;}
+
+.blackcat {
+  z-index: 10;
+  display: block;
+  width: 126px;
+  height: 108px;
+  position:relative;
+  top: 50px;
+  left: 40px;
+  background-image: url("../images/black-cat.jpg");
+  animation: play 2s steps(10) infinite;
+}
+
+@keyframes play {
+  100% { background-position: -1260px; }
 }
 
 /* testing and editing styles */
